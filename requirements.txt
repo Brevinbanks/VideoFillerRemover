@@ -1,0 +1,6 @@
+moviepy
+openai-whisper
+pydub
+Pillow
+ffmpeg
+ffmpeg-python
