@@ -9,7 +9,7 @@ This project is a Python-based tool that processes vlog-style videos, automatica
 
 
 If you'd prefer just an out of the box EXE file you can download and run 'Video Filler Remover.exe'
-This should work with windows, but if you run into problems they may be fixed as long as you follow the ffmpeg steps below in number 4 by nstalling ffmpeg through choco [(choclatey)](https://chocolatey.org/install)
+This should work with windows, but if you run into problems they may be fixed as long as you follow the ffmpeg steps below in number 4 by installing ffmpeg through choco [(choclatey)](https://chocolatey.org/install)
 
 ## Installation
 
@@ -47,10 +47,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
-4. Check if your computer requires ffmpeg from ffmpeg.org. It could be a missing dependency often needed for whisper or moviepyy
+4. Check if your computer requires ffmpeg from ffmpeg.org. It could be a missing dependency often needed for whisper or moviepy
 
 Some libraries like whisper depend on certain system libraries (like ffmpeg for video processing). Make sure you have those dependencies installed. You can install ffmpeg using:
-These binaries are included (Windows 10+ compatible versions only) in this repository (ffmpeg-master-latest-win64) - but they may not work for all users and machines. Either way you must still add ffmpeg to your PATH Environment if not already done (see below).
+These binaries are referrenced (Windows 10+ compatible versions only) in the python file but they may not work for all users and machines. Either way you must still add ffmpeg to your PATH Environment if not already done (see below).
 
 -Windows: Download from [ffmpeg.org](https://www.ffmpeg.org/download.html). Extract the windows binary. There are 2 different 3rd party compilations available - i found [BtbN's](https://github.com/BtbN/FFmpeg-Builds/releases)  ffmpeg-master-latest-win64-gpl.zip to work for me. You'll need to extract the folder to get the executable, then you'll need to edit your PATH environment to include this exe.
 - If you'd prefer the command line version for windows, run the command window as an administrator with the following command:
