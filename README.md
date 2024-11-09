@@ -103,6 +103,14 @@ If the video has successfully found clips to cut you will see a preview of the c
 
 When the video is finished editing, a sound will play. This can be disabled if you like.
 
+Here is an example of a video cut with this tool.
+
+Unclipped Verison:
+[![Watch the video](https://youtu.be/3ziXsL-9_ms/0.jpg)](https://youtu.be/3ziXsL-9_ms)
+
+Clipped Version:
+[![Watch the video](https://youtu.be/B_RLQ5_UutM/0.jpg)](https://youtu.be/B_RLQ5_UutM)
+
 
 You may notice there will be a left over file called temp_audo.wav in the working directory after it finishes a video. It uses this to separate the audio from the video and then restore them. After you have finished the clipping you can delete this file.
 
